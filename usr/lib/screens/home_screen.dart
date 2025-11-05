@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:couldai_user_app/screens/coupons_screen.dart';
-import 'package:couldai_user_app/screens/live_stream_screen.dart';
-import 'package:couldai_user_app/screens/profile_screen.dart';
+import 'package:livebet/screens/coupons_screen.dart';
+import 'package:livebet/screens/live_stream_screen.dart';
+import 'package:livebet/screens/profile_screen.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

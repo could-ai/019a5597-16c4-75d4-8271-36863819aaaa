@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:couldai_user_app/screens/home_screen.dart';
+import 'package:livebet/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Betting App',
+      title: 'LiveBet',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
         primaryColor: Colors.deepPurple,
@@ -24,6 +24,10 @@ class MyApp extends StatelessWidget {
           backgroundColor: Color(0xFF1F1F1F),
           selectedItemColor: Colors.deepPurple,
           unselectedItemColor: Colors.grey,
+        ),
+        appBarTheme: const AppBarTheme(
+          centerTitle: true,
+          elevation: 0,
         ),
       ),
       home: const HomeScreen(),
